@@ -1,0 +1,42 @@
+//Programa 1 en JavaScript
+
+var numero = 365;
+console.log( numero );
+numero = 5000
+console.log( numero );
+
+//Declaración de Constante
+
+const mensaje = "Bienvenido a Ciudad Rio Verde";
+//mensaje = "Bienvenido a Ciudad Rio Claro"; (No se puede porque es una constante, no puede cambiar su valor)
+console.log( mensaje );
+
+//Caracteristicas de persona
+const nombre = "Luis";
+const apellidoPaterno = "Rusiles";
+const apellidoMaterno = "Leal";
+var edad = 17;
+const lugarNacimiento = "México";
+
+//Objeto persona
+var persona = {
+    nombre: "Luis",
+    apellidoPaterno: "Rusiles",
+    apellidoMaterno: "Leal",
+    edad: 17,
+    lugarNacimiento: "México",
+}
+
+console.log(persona.edad);
+
+//Características de un coche
+var placa = "HHF-453";
+var color = "Rojo";
+const modelo = "Corolla";
+const marca = "Toyota";
+const paisOrigen = "Japón";
+const anio = 2010 ;
+const asientos = 5;
+const llantas = 4;
+const motor = "Tipo de motor";
+
